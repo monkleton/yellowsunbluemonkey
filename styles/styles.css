@@ -1,0 +1,167 @@
+
+*{box-sizing:border-box;
+}
+
+main {
+box-shadow: 0 4px 8px 0 rgba(168, 182, 131, 0.2);
+background-image: url("escher.jpg"); background-position:center; background-size:cover; 
+background-repeat:no-repeat; background-attachment:fixed;
+font-family: Verdana;
+padding-top: 0px;
+padding-right: 11%;
+padding-left: 11%;
+text-align: center;
+color: #A8B683;
+float: center;
+
+}
+
+body {
+background-color: #030B0E;
+font-family: Verdana;
+padding-top: 0px;
+padding-right: 0px;
+padding-left: 0px;
+text-align: center;
+color: #A8B683;
+float: center;
+margin: 0 auto;
+}
+
+ol {
+display: inline-block;
+text-align: center;
+margin-top:0px;
+}
+
+table {
+text-align: center;
+}
+
+a {
+color: #A8B683;
+}
+
+img {
+vertical-align: middle;
+}
+
+.title {
+padding: 0px; 
+font-size: 40px;
+text-align: center;
+margin-top: 0px;
+opacity:1;
+width: 100%;
+color: #A8B683;
+vertical-align: text-bottom;
+}
+
+.navbar{
+background-color: #030B0E;
+overflow: hidden;
+opacity:1;
+margin-top: 0px;
+margin-bottom: 0px;
+text-align: center;
+width: 100%;
+}
+
+.navbar a { 
+float: center;
+color: #A8B683;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 23px;
+opacity:1;
+}
+
+.navbar a:hover {
+background-color: #A8B683;
+color: #030B0E;
+opacity:1;
+}
+
+.navbar a.active {
+background-color: #A8B683;
+color: #030B0E;
+opacity:1;	
+}
+
+.centercolumn{
+float: center;
+width: 100%;
+color: #A8B683;
+}
+
+.faking{
+width: 100%;
+padding: 20px;
+}
+
+.card{
+background-color: #030B0E;
+padding: 30px;
+padding-right: 0px;
+padding-left: 0px;
+margin-top: 0px;
+opacity:1;
+color: #A8B683;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+opacity:1;
+}
+  
+.footer {
+width: 100%;
+float: center;
+text-align: center;
+background: #030B0E;
+font-size: 23px;
+opacity:1;
+color: #A8B683;
+}
+
+.active, .dot:hover {
+
+}
+
+.collapsible {
+cursor: pointer;
+padding: 0px;
+background-color: #A8B683;
+color: #030B0E;
+font-size: 25px;
+width: 77%;
+}
+
+.active, .collapsible:hover {
+background-color: #A8B683;
+}
+
+.content {
+display: none;
+overflow: hidden;
+}
+
+::-webkit-scrollbar {
+width: 13px;
+}
+
+::-webkit-scrollbar-track {
+border-radius: 13px;
+}
+ 
+::-webkit-scrollbar-thumb {
+background: #A8B683; 
+border-radius: 13px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #78825f; 
+}
